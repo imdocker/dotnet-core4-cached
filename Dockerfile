@@ -2,12 +2,12 @@ FROM imdocker1/dotnet-core4:006
 # Build from
 # https://github.com/imdocker/dotnet-core4
 
-ENV IMAGE_DATE 2018-12-25
+ENV IMAGE_DATE 2018-12-26
 ENV IMAGE_NUM 006
 
 ENV RELEASE_HASH=3e079ccb6378b346aa49e8df7253c5009458eefb20bb7be828d760fd33777faa
-ENV RELEASE_FILE=nuget3.tar.gz
-ENV RELEASE_VERSION=0.0.4
+ENV RELEASE_FILE=nuget.tar.gz
+ENV RELEASE_VERSION=0.0.6
 
  #Use with dotnet-core4cache
  #https://github.com/imdocker/dotnet-core4cache
