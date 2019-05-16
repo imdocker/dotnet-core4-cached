@@ -14,6 +14,6 @@ ENV RELEASE_VERSION=0.0.9
 
 RUN dnf update -y && dnf install wget -y && \
   set -ex \
-  && cd /root && wget --quiet https://github.com/imdocker/dotnet-core4cache/releases/download/${RELEASE_VERSION}/${RELEASE_FILE} -O nuget.tar.gz \
+  && cd /root && wget --quiet https://github.com/imdocker/dotnet-core4-cached/releases/download/${RELEASE_VERSION}/${RELEASE_FILE} -O nuget.tar.gz \
   && echo "${RELEASE_HASH}  nuget.tar.gz" | sha256sum -c \
   && tar -xf nuget.tar.gz && rm nuget.tar.gz && dnf clean all
