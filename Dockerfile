@@ -1,13 +1,13 @@
-FROM imdocker1/dotnet-core4:009
+FROM quay.io/imdocker1/dotnet-core4
 # Build from
 # https://github.com/imdocker/dotnet-core4
 
-ENV IMAGE_DATE 2018-03-12
+ENV IMAGE_DATE 2019-05-15
 ENV IMAGE_NUM 009
 
-ENV RELEASE_HASH=620a1fb4b8f8344b2f4578b57a30f8e5d378925db588830f861050070bf086bc
-ENV RELEASE_FILE=nuget2.2.104.tar.gz
-ENV RELEASE_VERSION=0.0.6
+ENV RELEASE_HASH=8431b4e0ebe1507dcdfb5ac13d55c1fb3f53d45cf5c678a4a077d5ac2c2f4e59
+ENV RELEASE_FILE=cache-2-2-204-fedora30.tar.gz
+ENV RELEASE_VERSION=0.0.9
 
  #Use with dotnet-core4cache
  #https://github.com/imdocker/dotnet-core4cache
